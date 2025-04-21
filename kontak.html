@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdn.jsdelivr.net/npm/flowbite@3.1.2/dist/flowbite.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <title>AlJihadComputer</title>
+</head>
+
+<body>
+    <nav class="bg-white fixed w-full z-30 top-0 start-0 border-b border-gray-200">
+        <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+            <a href="#" class="flex items-center">
+                <img src="src/image/AJC (6).png" class="w-[100px]" alt="Flowbite Logo">
+            </a>
+            <div class="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
+                <button data-collapse-toggle="navbar-sticky" type="button"
+                    class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200"
+                    aria-controls="navbar-sticky" aria-expanded="false">
+                    <span class="sr-only">Open main menu</span>
+                    <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none"
+                        viewBox="0 0 17 14">
+                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M1 1h15M1 7h15M1 13h15" />
+                    </svg>
+                </button>
+            </div>
+            <div class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1" id="navbar-sticky">
+                <ul
+                    class="flex flex-col p-4 md:p-0 mt-4 font-medium border border-gray-100 rounded-lg md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-white">
+                    <li>
+                        <a href="index.html"
+                            class="block py-2 px-3 text-white bg-blue-700 rounded-sm md:bg-transparent md:text-blue-700 md:p-0"
+                            aria-current="page">Beranda</a>
+                    </li>
+                    <li>
+                        <a href="tentang.html"
+                            class="block py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0">Tentang</a>
+                    </li>
+                    <li>
+                        <a href="layanan.html"
+                            class="block py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0">Layanan</a>
+                    </li>
+                    <li>
+                        <a href="kontak.html"
+                            class="block py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <div
+        class="min-h-screen flex items-center justify-center bg-gradient-to-br from-white via-cyan-50 to-cyan-200 px-6 py-12">
+        <div class="max-w-6xl w-full grid md:grid-cols-2 gap-8 bg-white/60 backdrop-blur-md rounded-2xl shadow-xl p-8 mt-20 lg:mt-2">
+
+            <!-- Kontak Info -->
+            <div>
+                <h1 class="text-4xl lg:text-5xl font-bold text-gray-900 mb-4" data-aos="fade-down" data-aos-duration="1000">Jangan ragu<br>hubungi kami</h1>
+                <p class="text-gray-700 mb-6">
+                    Jika anda mempunyai pertanyaan atau ingin menghubungi langsung dengan tim Aljihad, silakan gunakan
+                    informasi. Kami siap membantu dengan solusi teknis terbaik untuk Anda.
+                </p>
+
+                <div class="space-y-4 text-gray-800">
+                    <div class="flex items-center space-x-4" data-aos="fade-right" data-aos-duration="500">
+                        <span class="text-2xl">📧</span>
+                        <a href="mailto:halo@teknisigo.com">aljihad@computer.com</a>
+                    </div>
+                    <div class="flex items-center space-x-4" data-aos="fade-right" data-aos-duration="1000">
+                        <span class="text-2xl">📞</span>
+                        <a href="tel:+6281285180588">+62 876-543-219</a>
+                    </div>
+                    <div class="flex items-start space-x-4" data-aos="fade-right" data-aos-duration="1500">
+                        <span class="text-2xl">📍</span>
+                        <p>
+                            Jl. Nipa-Nipa, Manggala, Kota Makassar
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Google Maps Embed -->
+            <div class="w-full h-96 rounded-xl overflow-hidden shadow-md" data-aos="fade-left" data-aos-duration="1000">
+                <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3973.630796151451!2d119.5032620750298!3d-5.162953694814402!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dbee3638f1a393d%3A0x1c0720695a3965ed!2sAl-Jihad%20Computer!5e0!3m2!1sid!2sid!4v1745063755182!5m2!1sid!2sid"
+                    width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+            </div>
+
+        </div>
+    </div>
+
+<!-- Footer Start -->
+<div class="w-full bg-blue-700 rounded-t-3xl">
+    <div class="grid lg:grid-cols-2 grid-cols-1">
+        <div class="w-full flex flex-col justify-center items-start m-24">
+            <img src="src/image/AJC (6).png" alt="" class="w-[200px] h-auto">
+            <p class="lg:text-3xl text-xl text-white">AlJihadComputer</p>
+            <p class="lg:text-xl text-lg text-gray-300">#tentang Store & Service Gadget Makassar
+            </p>
+        </div>
+        <div class="flex flex-col w-full justify-center items-start">
+            <a href="#"
+                class="flex w-full py-2 justify-center items-start gap-2 text-lg text-gray-200 font-semibold hover:underline hover:text-teal-500">
+                <ion-icon name="mail-outline"></ion-icon>
+                <p>aljihad@gmail.com</p>
+            </a>
+            <a href="#"
+                class="flex w-full py-2 justify-center items-start gap-2 text-lg text-gray-200 font-semibold hover:underline hover:text-teal-500">
+                <ion-icon name="call-outline"></ion-icon>
+                <p>+68 123 456 789</p>
+            </a>
+            <a href="#"
+                class="flex w-full py-2 justify-center items-start gap-2 text-lg text-gray-200 font-semibold hover:underline hover:text-teal-500">
+                <ion-icon name="location-outline"></ion-icon>
+                <p>Jl. Nipa-Nipa, Manggala, Kota Makassar</p>
+            </a>
+        </div>
+    </div>
+    <div class="border-t border-gray-300 pb-14"></div>
+
+    <p class="text-center text-xl text-white pb-8">Copyright: © 2025 AlJihadComputer. All Rights Reserved.</p>
+</div>
+<!-- Footer End -->
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/flowbite@3.1.2/dist/flowbite.min.js"></script>
+</body>
+
+</html>
