@@ -51,7 +51,28 @@
             </div>
         </div>
     </nav>
+<div class="relative w-full h-screen overflow-hidden bg-blue-700">
+        <!-- Video Background -->
+        <video autoplay muted loop class="absolute top-0 left-0 w-full h-full object-cover z-0">
+            <source src="src/image/138770-770553751_small.mp4" type="video/mp4">
+        </video>
 
+        <!-- Overlay Layer -->
+        <div class="absolute top-0 left-0 w-full h-full bg-black opacity-50 z-10"></div>
+
+        <!-- Konten Utama -->
+        <div class="relative z-20 flex flex-col justify-center items-center h-full text-center px-4">
+            <p class="text-sky-600 font-bold text-lg" data-aos="fade-up" data-aos-duration="1000">Selamat datang</p>
+            <h1 class="text-3xl font-bold lg:text-7xl text-white" data-aos="fade-right" data-aos-duration="1000">
+                #ServicePastiHemat<br>di Al Jihad Computer.</h1>
+            <a href="https://wa.me/628978588751" target="_blank"
+                class="bg-sky-400 py-4 px-6 flex items-center gap-4 mb-12 rounded-full mt-12 font-semibold"
+                data-aos="fade-up" data-aos-duration="1100">
+                <ion-icon name="logo-whatsapp" class="text-xl"></ion-icon>
+                <p class="text-xl">Konsultasi sekarang</p>
+            </a>
+        </div>
+    </div>
     
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
