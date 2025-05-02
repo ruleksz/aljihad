@@ -123,7 +123,77 @@
             </a>
         </div>
     </div>
-    
+    <section id="menu" class="mx-auto px-6 py-16 text-center">
+        <p class="text-lg text-center pt-14 text-blue-500 font-semibold" data-aos="fade-up" data-aos-duration="1000">Our
+            service</p>
+        <h2 class="text-2xl lg:text-5xl font-bold text-center mt-4" data-aos="fade-up" data-aos-duration="1000">Pilih
+            layanan kami</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-5xl mx-auto mt-6">
+            <!-- Sidebar -->
+            <div class="space-y-4">
+                <div onclick="showService('tracking', this)"
+                    class="service-tab cursor-pointer p-4 rounded-lg border-l-4 border-blue-500 bg-blue-100"
+                    data-aos="fade-right" data-aos-duration="700">
+                    <h3 class="font-semibold text-xl flex items-center gap-2">🔧 Service Tracking</h3>
+                    <p class="text-gray-700 text-sm">Cek status perangkatmu yang sedang diperbaiki secara real-time &
+                        akurat.</p>
+                </div>
+                <div onclick="showService('sell', this)"
+                    class="service-tab cursor-pointer p-4 rounded-lg border-l-4 border-l-transparent hover:bg-gray-100"
+                    data-aos="fade-right" data-aos-duration="1000">
+                    <h3 class="font-semibold text-xl flex items-center gap-2">💰 Sell Your Laptop</h3>
+                    <p class="text-gray-700 text-sm">Jual laptop bekasmu ke AlJihadComputer dan dapatkan harga jual yang
+                        sesuai.</p>
+                </div>
+                <div onclick="showService('home', this)"
+                    class="service-tab cursor-pointer p-4 rounded-lg border-l-4 border-l-transparent hover:bg-gray-100"
+                    data-aos="fade-right" data-aos-duration="1300">
+                    <h3 class="font-semibold text-xl flex items-center gap-2">🏠 Home Service</h3>
+                    <p class="text-gray-700 text-sm">Perbaikan perangkat langsung di rumahmu dengan mudah & cepat.</p>
+                </div>
+                <div onclick="showService('rental', this)"
+                    class="service-tab cursor-pointer p-4 rounded-lg border-l-4 border-l-transparent hover:bg-gray-100"
+                    data-aos="fade-right" data-aos-duration="1600">
+                    <h3 class="font-semibold text-xl flex items-center gap-2">💻 Sewa Laptop</h3>
+                    <p class="text-gray-700 text-sm">Sewa laptop dengan mudah dan terjangkau untuk kerja, belajar, dll.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Content -->
+            <div id="content" class="bg-gray-100 p-6 rounded-lg shadow" data-aos="fade-left" data-aos-duration="1000">
+                <div id="tracking" class="service">
+                    <h2 class="text-xl font-semibold mb-4">🔧 Service Tracking</h2>
+                    <img src="src/image/Service-Tracking-2.png" alt="Tracking Example" class="rounded-lg border shadow">
+                    <a href="#"
+                        class="mt-4 inline-block bg-blue-800 text-teal-500 hover:text-blue-800 hover:bg-teal-500 px-4 py-2 rounded font-semibold transition ease-in-out duration-300">Selengkapnya</a>
+                </div>
+
+                <div id="sell" class="service hidden w-full flex flex-col justify-center items-center">
+                    <h2 class="text-xl font-semibold mb-4">💰 Sell Your Laptop</h2>
+                    <img src="src/image/images.png" alt="Tracking Example" class="rounded-lg border shadow">
+                    <a href="#"
+                        class="mt-4 inline-block bg-blue-800 text-teal-500 hover:text-blue-800 hover:bg-teal-500 px-4 py-2 rounded font-semibold transition ease-in-out duration-300">Selengkapnya</a>
+                </div>
+
+                <div id="home" class="service hidden">
+                    <h2 class="text-xl font-semibold mb-4">🏠 Home Service</h2>
+                    <img src="src/image/service-laptop-1024x657-1.jpg" alt="Tracking Example"
+                        class="rounded-lg border shadow">
+                    <a href="#"
+                        class="mt-4 inline-block bg-blue-800 text-teal-500 hover:text-blue-800 hover:bg-teal-500 px-4 py-2 rounded font-semibold transition ease-in-out duration-300">Selengkapnya</a>
+                </div>
+
+                <div id="rental" class="service hidden">
+                    <h2 class="text-xl font-semibold mb-4">💻 Sewa Laptop</h2>
+                    <img src="src/image/adv-1_169.png" alt="Tracking Example"
+                        class="rounded-lg border shadow">
+                    <a href="#"
+                        class="mt-4 inline-block bg-blue-800 text-teal-500 hover:text-blue-800 hover:bg-teal-500 px-4 py-2 rounded font-semibold transition ease-in-out duration-300">Selengkapnya</a>
+                </div>
+            </div>
+        </div>
+    </section>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
         AOS.init();
